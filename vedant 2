@@ -89,3 +89,67 @@ ch=ch+1;
 printf("\t%c", ch);
 
 }
+Loop
+#include <stdio.h>
+
+void display(char,int);
+
+int main()
+
+{
+
+char ch,c;
+
+int n;
+
+printf("how many next char:");
+
+scanf("%d",&n);
+
+printf("Enter character: ");
+
+scanf("%c", &ch²);
+
+display (ch,n);
+
+} void display (char ch, int n)
+
+{
+
+int i;
+
+printf("\nYou entered:\t%c\n", ch); printf("Next character: ");
+
+for(i=0;i<n;i++)
+
+printf("how many next char:");
+
+scanf("%d",&n);
+
+printf("Enter character:");
+
+scanf("%c", &ch);
+
+display(ch,n);
+
+}
+
+ void display (char ch, int n).
+
+{
+
+int i;
+
+printf("\nYou entered:\t%c\n", ch);
+
+printf("Next character :");
+
+for(i=0;i<n;i++)
+
+{
+
+ch=ch+1;
+
+}
+
+printf("\t%c", ch);
