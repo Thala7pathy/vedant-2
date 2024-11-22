@@ -1,0 +1,91 @@
+#include<stdio.h>
+void main()
+{
+
+Sint no, sum=0, i;
+
+printf("Enter the number: ");
+
+scanf("%d",&no);
+
+for(i=1;i<=no; i++)
+
+{
+
+if(no%i==0)
+
+sum=sum+i;
+
+}
+
+printf("\nSum of the factors of %d is: %d", no, sum);
+
+} 
+#include <stdio.h>
+
+void display(char,int);
+
+int main()
+
+-{
+
+char ch,c;
+
+Sint n;
+
+"printf("how many next char:");
+
+3 scanf("%d",&n);
+
+printf("Enter character:");
+
+scanf("%c", &ch²);
+
+- display(ch,n);
+
+2}
+
+Bvoid display(char ch, int n)
+
+{
+
+5 int i;
+
+5 printf("\nYou entered:\t%c\n", ch);
+
+printf("Next character :");
+
+3 for(i=0;i<n;i++)
+
+
+printf("how many next char:");
+
+scanf("%d",&n);
+
+printf("Enter character:");
+
+scanf("%c", &ch);
+
+display(ch,n);
+
+}
+
+I void display(char ch, int n)
+
+{
+
+int i;
+
+printf("\nYou entered:\t%c\n", ch);
+
+printf("Next character: ");
+
+for(i=0;i<n;i++)
+
+{
+
+ch=ch+1;
+
+printf("\t%c", ch);
+
+}
